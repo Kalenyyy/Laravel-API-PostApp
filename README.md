@@ -81,18 +81,6 @@ API akan berjalan di: `http://localhost:8000/api`
 | PUT    | `/api/posts/{id}`  | Update a post      |
 | DELETE | `/api/posts/{id}`  | Delete a post      |
 
-#### Sample: Create a Post
-
-```http
-POST /api/posts
-Content-Type: application/json
-
-{
-  "title": "Hello World",
-  "content": "This is my first blog post."
-}
-```
-
 ---
 
 ### 💬 Comments
